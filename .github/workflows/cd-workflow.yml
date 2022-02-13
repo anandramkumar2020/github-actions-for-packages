@@ -70,6 +70,5 @@ jobs:
       with:
         username: ${{github.actor}}
         password: ${{secrets.GITHUB_TOKEN}}
-        registry: docker.pkg.github.com
-        repository: anandramkumar2020/github-actions-for-packages/tic-tac-toe
+        repository: anandramkumar2020/tic-tac-toe
         tag_with_sha: true
